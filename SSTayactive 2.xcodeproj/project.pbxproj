@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1C61846257D12A000DD9FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61845257D12A000DD9FC5 /* AppDelegate.swift */; };
+		B1C61848257D12A000DD9FC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61847257D12A000DD9FC5 /* SceneDelegate.swift */; };
+		B1C6184A257D12A000DD9FC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61849257D12A000DD9FC5 /* ViewController.swift */; };
+		B1C6184D257D12A000DD9FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C6184B257D12A000DD9FC5 /* Main.storyboard */; };
+		B1C6184F257D12A200DD9FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C6184E257D12A200DD9FC5 /* Assets.xcassets */; };
+		B1C61852257D12A200DD9FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C61850257D12A200DD9FC5 /* LaunchScreen.storyboard */; };
+		B1C6185D257D12A200DD9FC5 /* SSTayactive_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6185C257D12A200DD9FC5 /* SSTayactive_2Tests.swift */; };
+		B1C61868257D12A200DD9FC5 /* SSTayactive_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61867257D12A200DD9FC5 /* SSTayactive_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1C61859257D12A200DD9FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C6183A257D12A000DD9FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C61841257D12A000DD9FC5;
+			remoteInfo = "SSTayactive 2";
+		};
+		B1C61864257D12A200DD9FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C6183A257D12A000DD9FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C61841257D12A000DD9FC5;
+			remoteInfo = "SSTayactive 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1C61842257D12A000DD9FC5 /* SSTayactive 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSTayactive 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C61845257D12A000DD9FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1C61847257D12A000DD9FC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1C61849257D12A000DD9FC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1C6184C257D12A000DD9FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1C6184E257D12A200DD9FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1C61851257D12A200DD9FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1C61853257D12A200DD9FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C61858257D12A200DD9FC5 /* SSTayactive 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSTayactive 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C6185C257D12A200DD9FC5 /* SSTayactive_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSTayactive_2Tests.swift; sourceTree = "<group>"; };
+		B1C6185E257D12A200DD9FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C61863257D12A200DD9FC5 /* SSTayactive 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSTayactive 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C61867257D12A200DD9FC5 /* SSTayactive_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSTayactive_2UITests.swift; sourceTree = "<group>"; };
+		B1C61869257D12A200DD9FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1C6183F257D12A000DD9FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C61855257D12A200DD9FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C61860257D12A200DD9FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1C61839257D12A000DD9FC5 = {
+			isa = PBXGroup;
+			children = (
+				B1C61844257D12A000DD9FC5 /* SSTayactive 2 */,
+				B1C6185B257D12A200DD9FC5 /* SSTayactive 2Tests */,
+				B1C61866257D12A200DD9FC5 /* SSTayactive 2UITests */,
+				B1C61843257D12A000DD9FC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C61843257D12A000DD9FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1C61842257D12A000DD9FC5 /* SSTayactive 2.app */,
+				B1C61858257D12A200DD9FC5 /* SSTayactive 2Tests.xctest */,
+				B1C61863257D12A200DD9FC5 /* SSTayactive 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1C61844257D12A000DD9FC5 /* SSTayactive 2 */ = {
+			isa = PBXGroup;
+			children = (
+				B1C61845257D12A000DD9FC5 /* AppDelegate.swift */,
+				B1C61847257D12A000DD9FC5 /* SceneDelegate.swift */,
+				B1C61849257D12A000DD9FC5 /* ViewController.swift */,
+				B1C6184B257D12A000DD9FC5 /* Main.storyboard */,
+				B1C6184E257D12A200DD9FC5 /* Assets.xcassets */,
+				B1C61850257D12A200DD9FC5 /* LaunchScreen.storyboard */,
+				B1C61853257D12A200DD9FC5 /* Info.plist */,
+			);
+			path = "SSTayactive 2";
+			sourceTree = "<group>";
+		};
+		B1C6185B257D12A200DD9FC5 /* SSTayactive 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B1C6185C257D12A200DD9FC5 /* SSTayactive_2Tests.swift */,
+				B1C6185E257D12A200DD9FC5 /* Info.plist */,
+			);
+			path = "SSTayactive 2Tests";
+			sourceTree = "<group>";
+		};
+		B1C61866257D12A200DD9FC5 /* SSTayactive 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1C61867257D12A200DD9FC5 /* SSTayactive_2UITests.swift */,
+				B1C61869257D12A200DD9FC5 /* Info.plist */,
+			);
+			path = "SSTayactive 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1C61841257D12A000DD9FC5 /* SSTayactive 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C6186C257D12A200DD9FC5 /* Build configuration list for PBXNativeTarget "SSTayactive 2" */;
+			buildPhases = (
+				B1C6183E257D12A000DD9FC5 /* Sources */,
+				B1C6183F257D12A000DD9FC5 /* Frameworks */,
+				B1C61840257D12A000DD9FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSTayactive 2";
+			productName = "SSTayactive 2";
+			productReference = B1C61842257D12A000DD9FC5 /* SSTayactive 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1C61857257D12A200DD9FC5 /* SSTayactive 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C6186F257D12A200DD9FC5 /* Build configuration list for PBXNativeTarget "SSTayactive 2Tests" */;
+			buildPhases = (
+				B1C61854257D12A200DD9FC5 /* Sources */,
+				B1C61855257D12A200DD9FC5 /* Frameworks */,
+				B1C61856257D12A200DD9FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1C6185A257D12A200DD9FC5 /* PBXTargetDependency */,
+			);
+			name = "SSTayactive 2Tests";
+			productName = "SSTayactive 2Tests";
+			productReference = B1C61858257D12A200DD9FC5 /* SSTayactive 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1C61862257D12A200DD9FC5 /* SSTayactive 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C61872257D12A200DD9FC5 /* Build configuration list for PBXNativeTarget "SSTayactive 2UITests" */;
+			buildPhases = (
+				B1C6185F257D12A200DD9FC5 /* Sources */,
+				B1C61860257D12A200DD9FC5 /* Frameworks */,
+				B1C61861257D12A200DD9FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1C61865257D12A200DD9FC5 /* PBXTargetDependency */,
+			);
+			name = "SSTayactive 2UITests";
+			productName = "SSTayactive 2UITests";
+			productReference = B1C61863257D12A200DD9FC5 /* SSTayactive 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1C6183A257D12A000DD9FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Electron Inc";
+				TargetAttributes = {
+					B1C61841257D12A000DD9FC5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B1C61857257D12A200DD9FC5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B1C61841257D12A000DD9FC5;
+					};
+					B1C61862257D12A200DD9FC5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B1C61841257D12A000DD9FC5;
+					};
+				};
+			};
+			buildConfigurationList = B1C6183D257D12A000DD9FC5 /* Build configuration list for PBXProject "SSTayactive 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1C61839257D12A000DD9FC5;
+			productRefGroup = B1C61843257D12A000DD9FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1C61841257D12A000DD9FC5 /* SSTayactive 2 */,
+				B1C61857257D12A200DD9FC5 /* SSTayactive 2Tests */,
+				B1C61862257D12A200DD9FC5 /* SSTayactive 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1C61840257D12A000DD9FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C61852257D12A200DD9FC5 /* LaunchScreen.storyboard in Resources */,
+				B1C6184F257D12A200DD9FC5 /* Assets.xcassets in Resources */,
+				B1C6184D257D12A000DD9FC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C61856257D12A200DD9FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C61861257D12A200DD9FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1C6183E257D12A000DD9FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C6184A257D12A000DD9FC5 /* ViewController.swift in Sources */,
+				B1C61846257D12A000DD9FC5 /* AppDelegate.swift in Sources */,
+				B1C61848257D12A000DD9FC5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C61854257D12A200DD9FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C6185D257D12A200DD9FC5 /* SSTayactive_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C6185F257D12A200DD9FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C61868257D12A200DD9FC5 /* SSTayactive_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1C6185A257D12A200DD9FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1C61841257D12A000DD9FC5 /* SSTayactive 2 */;
+			targetProxy = B1C61859257D12A200DD9FC5 /* PBXContainerItemProxy */;
+		};
+		B1C61865257D12A200DD9FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1C61841257D12A000DD9FC5 /* SSTayactive 2 */;
+			targetProxy = B1C61864257D12A200DD9FC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1C6184B257D12A000DD9FC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C6184C257D12A000DD9FC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1C61850257D12A200DD9FC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C61851257D12A200DD9FC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1C6186A257D12A200DD9FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1C6186B257D12A200DD9FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1C6186D257D12A200DD9FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SSTayactive 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ExersizePet.SSTayactive-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1C6186E257D12A200DD9FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SSTayactive 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ExersizePet.SSTayactive-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1C61870257D12A200DD9FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SSTayactive 2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ExersizePet.SSTayactive-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSTayactive 2.app/SSTayactive 2";
+			};
+			name = Debug;
+		};
+		B1C61871257D12A200DD9FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SSTayactive 2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ExersizePet.SSTayactive-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSTayactive 2.app/SSTayactive 2";
+			};
+			name = Release;
+		};
+		B1C61873257D12A200DD9FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SSTayactive 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ExersizePet.SSTayactive-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SSTayactive 2";
+			};
+			name = Debug;
+		};
+		B1C61874257D12A200DD9FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SSTayactive 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ExersizePet.SSTayactive-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SSTayactive 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1C6183D257D12A000DD9FC5 /* Build configuration list for PBXProject "SSTayactive 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C6186A257D12A200DD9FC5 /* Debug */,
+				B1C6186B257D12A200DD9FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C6186C257D12A200DD9FC5 /* Build configuration list for PBXNativeTarget "SSTayactive 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C6186D257D12A200DD9FC5 /* Debug */,
+				B1C6186E257D12A200DD9FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C6186F257D12A200DD9FC5 /* Build configuration list for PBXNativeTarget "SSTayactive 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C61870257D12A200DD9FC5 /* Debug */,
+				B1C61871257D12A200DD9FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C61872257D12A200DD9FC5 /* Build configuration list for PBXNativeTarget "SSTayactive 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C61873257D12A200DD9FC5 /* Debug */,
+				B1C61874257D12A200DD9FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1C6183A257D12A000DD9FC5 /* Project object */;
+}
