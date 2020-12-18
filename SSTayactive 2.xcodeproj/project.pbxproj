@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B128A14725820123007DE921 /* WalkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128A14625820123007DE921 /* WalkerViewController.swift */; };
+		B1BF71F6257E170D0034E715 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF71F5257E170D0034E715 /* ShopViewController.swift */; };
+		B1BF71FB257E1AAE0034E715 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF71FA257E1AAE0034E715 /* InventoryViewController.swift */; };
+		B1BF71FF257E35750034E715 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF71FE257E35750034E715 /* ProfileViewController.swift */; };
 		B1C61846257D12A000DD9FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61845257D12A000DD9FC5 /* AppDelegate.swift */; };
 		B1C61848257D12A000DD9FC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61847257D12A000DD9FC5 /* SceneDelegate.swift */; };
 		B1C6184A257D12A000DD9FC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61849257D12A000DD9FC5 /* ViewController.swift */; };
@@ -15,6 +19,16 @@
 		B1C61852257D12A200DD9FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C61850257D12A200DD9FC5 /* LaunchScreen.storyboard */; };
 		B1C6185D257D12A200DD9FC5 /* SSTayactive_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6185C257D12A200DD9FC5 /* SSTayactive_2Tests.swift */; };
 		B1C61868257D12A200DD9FC5 /* SSTayactive_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61867257D12A200DD9FC5 /* SSTayactive_2UITests.swift */; };
+		B1C61876257D16A200DD9FC5 /* ContentpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61875257D16A200DD9FC5 /* ContentpageViewController.swift */; };
+		B1C61878257D173600DD9FC5 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61877257D173600DD9FC5 /* PasswordViewController.swift */; };
+		B1C6187C257D18A700DD9FC5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6187B257D18A700DD9FC5 /* Data.swift */; };
+		B1C6187E257D1B6D00DD9FC5 /* ShakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6187D257D1B6D00DD9FC5 /* ShakerViewController.swift */; };
+		FA8997F2258C870D0000FFE3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8997F1258C870D0000FFE3 /* LoginViewController.swift */; };
+		FA8997FE258C878D0000FFE3 /* HouseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8997FD258C878D0000FFE3 /* HouseInfoViewController.swift */; };
+		FA899809258C88090000FFE3 /* ExercisesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA899808258C88090000FFE3 /* ExercisesCollectionViewController.swift */; };
+		FA899811258C882A0000FFE3 /* ExerciseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA899810258C882A0000FFE3 /* ExerciseDetailsViewController.swift */; };
+		FA899816258C88670000FFE3 /* MascotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA899815258C88670000FFE3 /* MascotViewController.swift */; };
+		FA89981C258C88CE0000FFE3 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA89981B258C88CE0000FFE3 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B128A14625820123007DE921 /* WalkerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkerViewController.swift; sourceTree = "<group>"; };
+		B1BF71F5257E170D0034E715 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		B1BF71FA257E1AAE0034E715 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		B1BF71FE257E35750034E715 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B1C61842257D12A000DD9FC5 /* SSTayactive 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSTayactive 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C61845257D12A000DD9FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1C61847257D12A000DD9FC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,16 @@
 		B1C61863257D12A200DD9FC5 /* SSTayactive 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSTayactive 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C61867257D12A200DD9FC5 /* SSTayactive_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSTayactive_2UITests.swift; sourceTree = "<group>"; };
 		B1C61869257D12A200DD9FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C61875257D16A200DD9FC5 /* ContentpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentpageViewController.swift; sourceTree = "<group>"; };
+		B1C61877257D173600DD9FC5 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		B1C6187B257D18A700DD9FC5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B1C6187D257D1B6D00DD9FC5 /* ShakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakerViewController.swift; sourceTree = "<group>"; };
+		FA8997F1258C870D0000FFE3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA8997FD258C878D0000FFE3 /* HouseInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfoViewController.swift; sourceTree = "<group>"; };
+		FA899808258C88090000FFE3 /* ExercisesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesCollectionViewController.swift; sourceTree = "<group>"; };
+		FA899810258C882A0000FFE3 /* ExerciseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsViewController.swift; sourceTree = "<group>"; };
+		FA899815258C88670000FFE3 /* MascotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotViewController.swift; sourceTree = "<group>"; };
+		FA89981B258C88CE0000FFE3 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +107,7 @@
 		B1C61839257D12A000DD9FC5 = {
 			isa = PBXGroup;
 			children = (
+				B1C6187B257D18A700DD9FC5 /* Data.swift */,
 				B1C61844257D12A000DD9FC5 /* SSTayactive 2 */,
 				B1C6185B257D12A200DD9FC5 /* SSTayactive 2Tests */,
 				B1C61866257D12A200DD9FC5 /* SSTayactive 2UITests */,
@@ -101,10 +130,16 @@
 			children = (
 				B1C61845257D12A000DD9FC5 /* AppDelegate.swift */,
 				B1C61847257D12A000DD9FC5 /* SceneDelegate.swift */,
-				B1C61849257D12A000DD9FC5 /* ViewController.swift */,
+				B1C61850257D12A200DD9FC5 /* LaunchScreen.storyboard */,
 				B1C6184B257D12A000DD9FC5 /* Main.storyboard */,
 				B1C6184E257D12A200DD9FC5 /* Assets.xcassets */,
-				B1C61850257D12A200DD9FC5 /* LaunchScreen.storyboard */,
+				FA899827258C89260000FFE3 /* OldViews */,
+				FA8997F0258C86FB0000FFE3 /* LoginScreens */,
+				FA899823258C88D20000FFE3 /* RankingScreens */,
+				FA89981A258C886B0000FFE3 /* MascotScreens */,
+				FA899807258C87DE0000FFE3 /* ExercisesScreens */,
+				FA8997FC258C875C0000FFE3 /* HouseInfoScreens */,
+				FA899806258C87AB0000FFE3 /* ProfileScreens */,
 				B1C61853257D12A200DD9FC5 /* Info.plist */,
 			);
 			path = "SSTayactive 2";
@@ -126,6 +161,69 @@
 				B1C61869257D12A200DD9FC5 /* Info.plist */,
 			);
 			path = "SSTayactive 2UITests";
+			sourceTree = "<group>";
+		};
+		FA8997F0258C86FB0000FFE3 /* LoginScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FA8997F1258C870D0000FFE3 /* LoginViewController.swift */,
+				B1C61877257D173600DD9FC5 /* PasswordViewController.swift */,
+			);
+			path = LoginScreens;
+			sourceTree = "<group>";
+		};
+		FA8997FC258C875C0000FFE3 /* HouseInfoScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FA8997FD258C878D0000FFE3 /* HouseInfoViewController.swift */,
+			);
+			path = HouseInfoScreens;
+			sourceTree = "<group>";
+		};
+		FA899806258C87AB0000FFE3 /* ProfileScreens */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF71FE257E35750034E715 /* ProfileViewController.swift */,
+			);
+			path = ProfileScreens;
+			sourceTree = "<group>";
+		};
+		FA899807258C87DE0000FFE3 /* ExercisesScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FA899810258C882A0000FFE3 /* ExerciseDetailsViewController.swift */,
+				FA899808258C88090000FFE3 /* ExercisesCollectionViewController.swift */,
+			);
+			path = ExercisesScreens;
+			sourceTree = "<group>";
+		};
+		FA89981A258C886B0000FFE3 /* MascotScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FA899815258C88670000FFE3 /* MascotViewController.swift */,
+			);
+			path = MascotScreens;
+			sourceTree = "<group>";
+		};
+		FA899823258C88D20000FFE3 /* RankingScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FA89981B258C88CE0000FFE3 /* RankingViewController.swift */,
+			);
+			path = RankingScreens;
+			sourceTree = "<group>";
+		};
+		FA899827258C89260000FFE3 /* OldViews */ = {
+			isa = PBXGroup;
+			children = (
+				B1C61849257D12A000DD9FC5 /* ViewController.swift */,
+				B128A14625820123007DE921 /* WalkerViewController.swift */,
+				B1BF71FA257E1AAE0034E715 /* InventoryViewController.swift */,
+				B1BF71F5257E170D0034E715 /* ShopViewController.swift */,
+				B1C6187D257D1B6D00DD9FC5 /* ShakerViewController.swift */,
+				B1C61875257D16A200DD9FC5 /* ContentpageViewController.swift */,
+			);
+			path = OldViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +357,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8997F2258C870D0000FFE3 /* LoginViewController.swift in Sources */,
+				B128A14725820123007DE921 /* WalkerViewController.swift in Sources */,
 				B1C6184A257D12A000DD9FC5 /* ViewController.swift in Sources */,
+				FA899811258C882A0000FFE3 /* ExerciseDetailsViewController.swift in Sources */,
+				B1BF71FB257E1AAE0034E715 /* InventoryViewController.swift in Sources */,
+				B1BF71FF257E35750034E715 /* ProfileViewController.swift in Sources */,
+				B1C6187C257D18A700DD9FC5 /* Data.swift in Sources */,
+				B1C61876257D16A200DD9FC5 /* ContentpageViewController.swift in Sources */,
+				B1C61878257D173600DD9FC5 /* PasswordViewController.swift in Sources */,
+				B1BF71F6257E170D0034E715 /* ShopViewController.swift in Sources */,
+				FA89981C258C88CE0000FFE3 /* RankingViewController.swift in Sources */,
+				FA8997FE258C878D0000FFE3 /* HouseInfoViewController.swift in Sources */,
+				FA899816258C88670000FFE3 /* MascotViewController.swift in Sources */,
+				FA899809258C88090000FFE3 /* ExercisesCollectionViewController.swift in Sources */,
+				B1C6187E257D1B6D00DD9FC5 /* ShakerViewController.swift in Sources */,
 				B1C61846257D12A000DD9FC5 /* AppDelegate.swift in Sources */,
 				B1C61848257D12A000DD9FC5 /* SceneDelegate.swift in Sources */,
 			);
