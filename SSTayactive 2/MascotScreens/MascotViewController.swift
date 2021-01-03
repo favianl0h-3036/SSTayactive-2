@@ -14,6 +14,20 @@ class MascotViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if let isNewUser = defaults.object(forKey: "isNewUser") as? Bool {
+            if isNewUser {
+                perform(#selector(presentGetStartedViewController), with: nil, afterDelay: 0)
+            }
+        } else {
+            defaults.set(true, forKey: "isNewUser")
+            perform(#selector(presentGetStartedViewController), with: nil, afterDelay: 0)
+        }
+    }
+    
+    @objc private func presentGetStartedViewController() {
+        let vc = storyboard?.instantiateViewController(identifier: "getStarted") as! GetStartedViewController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
     
 
